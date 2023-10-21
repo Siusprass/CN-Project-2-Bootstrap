@@ -4,17 +4,325 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--Slick CSS-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!---->
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Bootstrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!--Custom CSS-->
     <link href="CSS/style.css" rel="stylesheet">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg nav-bg-orange" data-bs-theme="dark" id="nav-menu">
+        <div class="container" >
+          <a class="navbar-brand" href="#"><h2 class="bi bi-globe-asia-australia"> Earth</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+          
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div data-bs-spy="scroll" data-bs-target="#nav-menu" data-bs-smooth-scroll="true" tabindex="0">
+        <div class="hero-section">
+            <div class="container">
+                <div class="caption justify-content-center d-flex">
+                    <div>
+                        <h1>Company</h1>
+                            <p>We specialize in blablabla</p>
+                            <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-warning" type="submit">Search</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+          </div>
     
+            <div class="section-about nav-link">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-md-8 order-sm-2 order-md-1">
+                            <h4>ABOUT COMPANY PAGE</h4>
+                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <button class="btn btn-primary">Get in Touch</button>
+                        </div>
+                        <div class="col-md-4 about-icon order-sm-1 order-md-2">
+                            <div class="d-flex">
+                                <h1><i class="bi bi-bar-chart-fill"></i></h1>
+                            </div>
+                        </div>
+                    <!-- <div class="col-xxl-8 col-lg-8 col-md col-sm">
+                        <div class="alert alert-primary" role="alert">
+                            A simple primary alert—check it out!
+                          </div>
+                    </div>
+                    <div class="col-xxl-4 col-lg-4 col-md col-sm">
+                        <div class="alert alert-primary" role="alert">
+                            <i class="bi bi-bar-chart-fill"></i>
+                          </div>
+                    </div> -->
+    
+                    </div>
+                </div>
+            </div>
+    
+            <div class="section-porftolio nav-link" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <div>
+                                    <div class="portfolio-box" style="background: url(image/eiffel-tower-3349075_1280.jpg);">
+                                    </div>
+                                    <div>Paris</div>
+                                    <p>yes we built paris</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <div>
+                                    <div class="portfolio-box" style="background: url(image/eiffel-tower-3349075_1280.jpg);">
+                                    </div>
+                                
+                                    <div>Paris</div>
+                                    <p>yes we built paris</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <div>
+                                    <div class="portfolio-box" style="background: url(image/eiffel-tower-3349075_1280.jpg);">
+                                    </div>
+                                
+                                    <div>Paris</div>
+                                    <p>yes we built paris</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="section-testimonial nav-link multiple-items" id="testimonial">
+                <div class="container">
+                    <h2 class="text-center text-uppercase">What our costumer say</h2>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="d-flex">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                            </div>
+                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+    
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <div class="d-flex">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                            </div>
+                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                            
+                          </div>
+                          <div class="carousel-item">
+                            <div class="d-flex">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                            </div>
+                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                            
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+    
+            <div class="form-sign nav-link" id="contact">
+                <div class="container">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Sign in</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sign up</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                                <button type="submit" class="btn btn-primary" id="to-sign-up">Sign up</button>
+                              </form>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <button type="submit" class="btn btn-primary" id="sign-in">Sign in</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+    
+    
+    
+            <div class="section-pricing nav-link" id="pricing">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="pricing-box">
+                                <div class="pricing-head text-center">
+                                    <h2>Basic</h2>
+                                </div>
+                                <div class="pricing-item text-center">
+                                    <p>20 lorem</p>
+                                    <p>15 ipsum</p>
+                                    <p>5 dolor</p>
+                                    <p>2 sit</p>
+                                    <p>Endless Amet</p>
+                                </div>
+                                <div class="pricing-bottom text-center border-top">
+                                    <h2>$19</h2>
+                                    <p>per month</p>
+                                    <button class="btn btn-primary">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pricing-box">
+                                <div class="pricing-head text-center">
+                                    <h2>Pro</h2>
+                                </div>
+                                <div class="pricing-item text-center">
+                                    <p>20 lorem</p>
+                                    <p>15 ipsum</p>
+                                    <p>5 dolor</p>
+                                    <p>2 sit</p>
+                                    <p>Endless Amet</p>
+                                </div>
+                                <div class="pricing-bottom text-center border-top">
+                                    <h2>$19</h2>
+                                    <p>per month</p>
+                                    <button class="btn btn-primary">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pricing-box">
+                                <div class="pricing-head text-center">
+                                    <h2>Premium</h2>
+                                </div>
+                                <div class="pricing-item text-center">
+                                    <p>20 lorem</p>
+                                    <p>15 ipsum</p>
+                                    <p>5 dolor</p>
+                                    <p>2 sit</p>
+                                    <p>Endless Amet</p>
+                                </div>
+                                <div class="pricing-bottom text-center border-top">
+                                    <h2>$19</h2>
+                                    <p>per month</p>
+                                    <button class="btn btn-primary">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+      </div>
 
 
 
+
+        <div class="section-image-full" style="background: url(image/architecture-1837176_1280.jpg); width: 100%;">
+        </div>
+
+        <script type="text/javascript">
+            $('.multiple-items').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+        </script>
+
+
+        
     <!--Bootstrap Js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--Slick JS-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>
+

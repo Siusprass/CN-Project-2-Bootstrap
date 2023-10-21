@@ -1,0 +1,145 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 67px;
+}
+
+.nav-bg-orange{
+    background-color: #f4511e;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #f4511e;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #742209;
+}
+
+.navbar-nav li a{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.hero-section{
+    background-color: #f4511e;
+
+}
+.caption{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    min-height: 400px;
+
+}
+
+.section-about{
+    margin: 100px 0px;
+}
+.section-about .btn{
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.section-about .btn:hover{
+    background-color: #f4511e;
+    color: #000;
+    border-color: #f4511e;
+}
+
+
+.about-icon .bi{
+    font-size: 280px;
+    color: #f4511e;
+}
+
+
+.section-testimonial{
+    padding: 100px 0px;
+    background-color: #f2f2f2;
+}
+
+.section-testimonial .carousel-item .d-flex{
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-caption{
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    padding:0px;
+    text-align: center;
+}
+
+.porfolio-box img{
+    width: 100%;
+}
+.portfolio-box{
+    height: 300px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.section-image-full{
+    height: 100vh;
+    width: auto;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+.section-pricing{
+    padding: 60px 0px;
+}
+
+.pricing-box{
+    border: 1px solid #f4511e;
+}
+
+.pricing-box:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.pricing-head{
+    background-color: #f4511e;
+    padding: 20px;
+}
+
+.pricing-item{
+    padding: 20px;
+}
+.pricing-bottom{
+    padding: 20px 0px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.active{
+    background-color: #fff;
+    color: #f4511e!important;
+}
+
+
+@media (min-width: 1400px){
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg,
+     .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl,
+      .navbar>.container-xxl{
+        max-width: 1200px;
+      }
+}
+
+@media(max-width:768px) {
+    .carousel-caption{
+        padding: 0px 60px;
+    }
+}
